@@ -62,6 +62,7 @@
 	    	<c:choose>
 	        	<c:when test="${not empty docsList}">
 				    <table class="table table-striped custab">
+                        <caption>Doc List</caption>
 					    <thead>
 					        <tr>
 					            <th>Title</th>
