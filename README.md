@@ -1,5 +1,7 @@
 # Demo Web Application with Spring Security, Spring Boot, Spring Data JPA, HSQL, JSP
 
+[![Quality Gate Status](http://172.31.5.202:9000/api/project_badges/measure?project=sonarqube-java&metric=alert_status&token=021bb427bb2dbaa69f9b888ce39e7ee57b10efa7)](http://172.31.5.202:9000/dashboard?id=sonarqube-java)
+
 ## Demo
 
 The "feature" branch of this project is deployed to heroku and can be seen @ this url https://dboot.herokuapp.com/
