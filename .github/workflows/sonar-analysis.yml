@@ -20,4 +20,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean verify sonar:sonar -Dsonar.projectKey=sonarqube-java -Dsonar.host.url=http://13.126.108.171:9000 -Dsonar.login=${{secrets.SONAR_TOKEN}}
+      run: mvn clean verify sonar:sonar -Dsonar.projectKey=${{vars.SONAR_PROJECT_KEY}} -Dsonar.host.url=${{vars.SONAR_HOST_URL}} -Dsonar.login=${{secrets.SONAR_TOKEN}}
