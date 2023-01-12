@@ -5,7 +5,7 @@
     <name>DemoBoot-Spring</name>
     <description>Demo App using Spring boot</description>
     <packaging>war</packaging>
-    <version>1.2.4-RELEASE</version>
+    <version>1.2.5-RELEASE</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
